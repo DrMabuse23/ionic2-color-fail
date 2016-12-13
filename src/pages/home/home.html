@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-navbar color="BLUE_700">
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2 color="PINK_200">Welcome to Ionic Colors, Cli, Native readAsText fail?!</h2>
+  <p *ngFor="let message of messages;let i = index;" color="{{'RED_'+(i+1)*100}}">{{message}}</p>
+</ion-content>

@@ -1,0 +1,113 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/v2/theming/
+@import "ionic.globals";
+
+
+// Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files.
+// To view all the possible Ionic variables, see:
+// http://ionicframework.com/docs/v2/theming/overriding-ionic-variables/
+
+
+
+
+// Named Color Variables
+// --------------------------------------------------
+// Named colors makes it easy to reuse colors on various components.
+// It's highly recommended to change the default colors
+// to match your app's branding. Ionic uses a Sass map of
+// colors so you can add, rename and remove colors as needed.
+// The "primary" color is the only required color in the map.
+
+$colors: (
+  primary:    #387ef5,
+  secondary:  #32db64,
+  danger:     #f53d3d,
+  light:      #f4f4f4,
+  dark:       #222,
+  RED_50: ( base: #FFEBEE, contrast: #000000 ),
+  RED_100: ( base: #FFCDD2, contrast: #000000 ),
+  RED_200: ( base: #EF9A9A, contrast: #000000 ),
+  RED_300: ( base: #E57373, contrast: #000000 ),
+  RED_400: ( base: #EF5350, contrast: #FFFFFF ),
+  RED_500: ( base: #F44336, contrast: #FFFFFF ),
+  RED_600: ( base: #E53935, contrast: #FFFFFF ),
+  RED_700: ( base: #D32F2F, contrast: #FFFFFF ),
+  RED_800: ( base: #C62828, contrast: #FFFFFF ),
+  RED_900: ( base: #B71C1C, contrast: #FFFFFF ),
+  RED_A100: ( base: #FF8A80, contrast: #000000 ),
+  RED_A200: ( base: #FF5252, contrast: #FFFFFF ),
+  RED_A400: ( base: #FF1744, contrast: #FFFFFF ),
+  RED_A700: ( base: #D50000, contrast: #FFFFFF ),
+  PINK_50: ( base: #FCE4EC, contrast: #000000 ),
+  // PINK_100: ( base: #F8BBD0, contrast: #000000 ),
+  // PINK_200: ( base: #F48FB1, contrast: #000000 ),
+  // PINK_300: ( base: #F06292, contrast: #FFFFFF ),
+  // PINK_400: ( base: #EC407A, contrast: #FFFFFF ),
+  // PINK_500: ( base: #E91E63, contrast: #FFFFFF ),
+  // PINK_600: ( base: #D81B60, contrast: #FFFFFF ),
+  // PINK_700: ( base: #C2185B, contrast: #FFFFFF ),
+  // PINK_800: ( base: #AD1457, contrast: #FFFFFF ),
+  // PINK_900: ( base: #880E4F, contrast: #FFFFFF ),
+  // PINK_A100: ( base: #FF80AB, contrast: #000000 ),
+  // PINK_A200: ( base: #FF4081, contrast: #FFFFFF ),
+  // PINK_A400: ( base: #F50057, contrast: #FFFFFF ),
+  // PINK_A700: ( base: #C51162, contrast: #FFFFFF ),
+
+  // BLUE_50: ( base: #E3F2FD, contrast: #000000 ),
+  //  BLUE_100: ( base: #BBDEFB, contrast: #000000 ),
+  //  BLUE_200: ( base: #90CAF9, contrast: #000000 ),
+  //  BLUE_300: ( base: #64B5F6, contrast: #000000 ),
+  //  BLUE_400: ( base: #42A5F5, contrast: #000000 ),
+  //  BLUE_500: ( base: #2196F3, contrast: #FFFFFF ),
+  //  BLUE_600: ( base: #1E88E5, contrast: #FFFFFF ),
+  BLUE_700: ( base: #1976D2, contrast: #FFFFFF ),
+  //  BLUE_800: ( base: #1565C0, contrast: #FFFFFF ),
+  //  BLUE_900: ( base: #0D47A1, contrast: #FFFFFF ),
+  //   BLUE_A100: ( base: #82B1FF, contrast: #000000 ),
+  //   BLUE_A200: ( base: #448AFF, contrast: #FFFFFF ),
+  //   BLUE_A400: ( base: #2979FF, contrast: #FFFFFF ),
+  //   BLUE_A700: ( base: #2962FF, contrast: #FFFFFF ),
+
+);
+
+// App iOS Variables
+// --------------------------------------------------
+// iOS only Sass variables can go here
+
+
+
+
+// App Material Design Variables
+// --------------------------------------------------
+// Material Design only Sass variables can go here
+
+
+
+
+// App Windows Variables
+// --------------------------------------------------
+// Windows only Sass variables can go here
+
+
+
+
+// App Theme
+// --------------------------------------------------
+// Ionic apps can have different themes applied, which can
+// then be future customized. This import comes last
+// so that the above variables are used and Ionic's
+// default are overridden.
+
+@import "ionic.theme.default";
+
+
+// Ionicons
+// --------------------------------------------------
+// The premium icon font for Ionic. For more info, please see:
+// http://ionicframework.com/docs/v2/ionicons/
+
+$ionicons-font-path: "../assets/fonts";
+@import "ionicons";
